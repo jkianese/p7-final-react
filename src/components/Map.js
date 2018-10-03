@@ -18,8 +18,8 @@ export default class Map extends Component {
       const node = ReactDOM.findDOMNode(mapRef);
 
       let zoom = 13;
-      let lat = 28.38523;
-      let lng = -81.563873;
+      let lat = 40.441599;
+      let lng = -80.007902;
 
       const center = new maps.LatLng(lat, lng);
 
@@ -39,4 +39,3 @@ export default class Map extends Component {
     )
   }
 }
-

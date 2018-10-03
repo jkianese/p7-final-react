@@ -10,7 +10,7 @@ class App extends Component {
     }
     return (
       <div>
-        {/*<h1 className="heading"> Our Favorite Disney World Locations! </h1>*/}
+        {/*<h1 className="heading"> Pittsburgh, PA </h1>*/}
         <Map google={this.props.google} />
       </div>
     );
